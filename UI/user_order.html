@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Fast Food Fast</title>
+    <link rel="stylesheet" href="./css/styles.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">Fast</span> Food Fast</h1>
+        </div>
+        <nav>
+          <ul>
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="user_order_history.html">History</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="order">
+      <div class="container">
+        <h3>Please choose at least 1 menu item</h3>  
+        <form action="">
+            <label>Drinks</label>
+            <select class="order_dropdown">
+                <option value="Coke">Coke</option>
+                <option value="Pepsi">Pepsi</option>
+                <option value="Fanta">Fanta</option>
+                <option value="Water">Water</option>
+            </select>
+            <label>Food</label>
+            <select class="order_dropdown">
+                <option value="Cheese Burger">Cheese Burger</option>
+                <option value="Fried Chicken">Fried Chicken</option>
+                <option value="Pizza">Pizza</option>
+                <option value="Chips">Chips</option>
+            </select>
+            <label>Desserts</label>
+            <select class="order_dropdown">
+                <option value="Icecream">Ice Cream</option>
+                <option value="Cake">Cake</option>
+                <option value="Smoothie">Smoothie</option>
+                <option value="Pie">Pie</option>
+            </select>
+            <input type="submit" value="add item" id="submit_button">
+        </form>
+        <button onclick="confirm_order()">Confirm</button>
+      </div>
+    </section>
+
+    
+
+    
+
+    <footer>
+      <p>Fast Food Fast, Copyright &copy; 2018</p>
+    </footer>
+    <script src="./js/userintrxn.js"></script>
+  </body>
+</html>
